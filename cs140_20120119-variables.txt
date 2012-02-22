@@ -1,0 +1,26 @@
+Variables:
+	Allow us to bind names to values
+
+	firstname = raw_input('Enter your name: ')
+	print 'Hello,', firstname
+
+		Higher Level Languages
+		Assembly Language
+		Machine Language
+		Processor
+	
+	Use them to make our programs more readable
+	x = raw_input('Enter your name: ')
+	print 'Hello,', x		# Bad variable name
+	
+	Rules:
+		use only letters, numbers, or underscores
+		can't start with a number
+		don't use keywords
+	
+	Good variables: (legal)
+		firstname, x, firstName, first_name, top10
+		width, big_10, _hidden, print_number
+	
+	Bad variables: (illegal)
+		33feet, my name, his-name, it's, print
