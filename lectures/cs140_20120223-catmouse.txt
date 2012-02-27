@@ -1,0 +1,15 @@
+Main Game Loop (controlled by run, 0 to quit, 1 to play)
+    Player 1 (controlled by p1Turn, 1 its mine, 0 its not)
+        Find available directions
+        Get user input
+        Move avatar
+    Lunch check
+    Draw Board
+    Player 2 (controlled by p2Turn, 1 its mine, 0 its not)
+        # Find available directions
+        # Get user input
+        Generate automatic input
+        Move Avatar
+    Lunch check
+    Draw Board
+

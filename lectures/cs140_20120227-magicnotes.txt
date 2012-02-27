@@ -1,0 +1,14 @@
+1. Pick how many potions will be made (from 1 to 5)
+    num_potions = random.randint(1, 5)
+2. Locate each potion (saving state)
+    potions = []
+    for potion in range(num_potions):
+        # Randomly generate x,y for a potion
+        x = random.randint(1, 15)
+        y = random.randint(1, 15)
+        potions += [[x, y]]
+
+3. Draw board
+    To locate a potion, replace specific check with general
+    elif [inner, outer] in potions:
+        print 'P',
