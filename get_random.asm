@@ -2,6 +2,7 @@
 # rand.asm: A pseudorandom number generator function
 # Registers: A callee-saved function using only $s registers
 #	$s0-s3 -	For temporary calculations
+# I revisited this file in CS140 2012-03-29
 
 	.text
 get_random:				# Function entry for get_random()
